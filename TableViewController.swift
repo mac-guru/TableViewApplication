@@ -62,6 +62,23 @@ class TableViewController: UITableViewController {
         
     }
     
+    
+    
+    
+    override func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
+        
+        
+        if(indexPath.row % 2 == 0){
+            cell.backgroundColor = UIColor.grayColor()
+        }
+        else{
+            cell.backgroundColor = UIColor.whiteColor()
+        }
+        
+        
+        
+        
+    }
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
         if(segue.identifier == "showDetail"){
@@ -84,6 +101,8 @@ class TableViewController: UITableViewController {
             
         }
     }
+    
+    
     
 
     

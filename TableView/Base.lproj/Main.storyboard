@@ -6,10 +6,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--sds-->
         <scene sceneID="cIT-y7-W6K">
             <objects>
-                <tableViewController id="u5V-4B-Xyo" customClass="TableViewController" customModule="TableView" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="sds" id="u5V-4B-Xyo" customClass="TableViewController" customModule="TableView" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="137" sectionHeaderHeight="28" sectionFooterHeight="28" id="jhO-Kb-hjP">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -72,6 +72,8 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <animations/>
+                                <color key="backgroundColor" red="0.79532048560895918" green="0.82374836387434558" blue="0.81249227250314338" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.32098722391179235" green="0.82374836387434558" blue="0.6714695699500205" alpha="0.68871897163120566" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="TowerImage" destination="Gfv-lc-fnE" id="WWv-6B-XUu"/>
                                     <outlet property="TowerLocation" destination="bRB-0S-nmM" id="igq-b9-nvC"/>
